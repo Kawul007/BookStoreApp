@@ -1,6 +1,11 @@
 ##web端主要面向于管理员
-* 首页：包含小程序端用户行为统计（用户收藏量、注册量、浏览量等）、店铺热门图书榜单等信息。下面是效果图：
+* 首页：包含小程序端用户行为统计（用户收藏量、注册量、浏览量等）、店铺热门图书榜单等信息。右上角按钮点击打开网页导航栏。下面是效果图：
 ![](https://github.com/Kawul007/BookStoreApp/raw/main/public/Images/webHomePage.png)
+* 图书仓库页面：包含所有在架图书信息、搜索框和上传页面超链接等
+1[](https://github.com/Kawul007/BookStoreApp/raw/main/public/Images/webHomePage.png)
+* 图书馆里页面：
+* 图书详情/更新图书信息页面：
+* 图书上传页面：
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
