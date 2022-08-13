@@ -1,11 +1,16 @@
-##web端主要面向于管理员
+#【web端主要面向于管理员】-React、React-router、Ajax、CSS、HTML、Ant Design、ECharts等来实现
 * 首页：包含小程序端用户行为统计（用户收藏量、注册量、浏览量等）、店铺热门图书榜单等信息。右上角按钮点击打开网页导航栏。下面是效果图：
 ![](https://github.com/Kawul007/BookStoreApp/raw/main/public/Images/webHomePage.png)
-* 图书仓库页面：包含所有在架图书信息、搜索框和上传页面超链接等
-1[](https://github.com/Kawul007/BookStoreApp/raw/main/public/Images/webHomePage.png)
-* 图书馆里页面：
-* 图书详情/更新图书信息页面：
-* 图书上传页面：
+* 图书仓库页面：包含所有在架图书信息、搜索框和上传页面超链接以及分页显示功能等。效果图如下：
+![](https://github.com/Kawul007/BookStoreApp/raw/main/public/Images/webBook.png)
+* 图书管理页面：包含库存中的所有图书，以使用Ant Design Table来实现，可以按图书的库存/价格等来排序进行显示；管理可以进行对该书下架操作，或点击更新到更新图书信息页面，对图书进行更新；当图书的库存量调整为0时，库存会自动爆红显示为库存缺货；效果图如下：
+![](https://github.com/Kawul007/BookStoreApp/raw/main/public/Images/webBookManage.png)
+* 图书详情/更新图书信息页面：更新内容页面管理员可以对图书信息进行更改，并保存；详情页也是类似布局，但是管理员在详情页面不可以对图书信息进行更改的。效果图如下：
+![](https://github.com/Kawul007/BookStoreApp/raw/main/public/Images/webBookChange.png)
+* 图书上传页面：管理员必须填写完所有内容之后才能提交上架图书。效果图如下：
+![](https://github.com/Kawul007/BookStoreApp/raw/main/public/Images/webBookUpload.png)
+* 图书搜索页面：根据搜索内容返回相应的图书卡片，以便管理员查找已经上架过的图书。效果图如下：
+![](https://github.com/Kawul007/BookStoreApp/raw/main/public/Images/webBookSearch.png) 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
